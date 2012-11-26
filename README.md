@@ -12,7 +12,7 @@ How to install:
 
 5) In your Heroku app, run 
 
-	heroku config:add BUILDPACK_URL=https://github.com/user/repo-name
+    heroku config:add BUILDPACK_URL=https://github.com/user/repo-name
 
 6) Add config vars to heroku like so
 
