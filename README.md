@@ -10,7 +10,9 @@ How to install:
 
 4) In lib/custom/pdftk.rb, update source_url to reflect the S3 URL of your tar.gz file.  Update your repo.
 
-5) In your Heroku app, run heroku config:add BUILDPACK_URL=https://github.com/millie/heroku-buildpack-ruby-with-pdftk
+5) In your Heroku app, run 
+
+  heroku config:add BUILDPACK_URL=https://github.com/millie/heroku-buildpack-ruby-with-pdftk
 
 6) Add config vars to heroku like so
 
