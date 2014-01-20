@@ -6,7 +6,7 @@ class Pdftk < BaseCustom
     "pdftk"
   end
   def source_url
-    "https://s3.amazonaws.com/Ruby-Pdftk-Buildkit/pdftk.tar.gz"
+    "http://s3.amazonaws.com/source_url_here"
   end
   def used?
     File.exist?("#{build_path}/bin/pdftk") && File.exist?("#{build_path}/bin/lib/libgcj.so.12")
