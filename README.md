@@ -2,7 +2,7 @@ Heroku buildpack: Ruby + precompiled pdftk
 ======================
 How to install:
 
-1) Download PDFTK source (compiled for Heroku's Cedar Stack) from http://github.com/millie/pdftk-source
+1) Download PDFTK source (compiled for Heroku's Cedar Stack) from https://github.com/szTheory/pdftk-2.02-heroku-cedar-compiled for pdftk 2.02, or http://github.com/millie/pdftk-source for pdftk 1.44
 
 2) Upload the tar.gz to your own S3 bucket.  Make it public.  Remember the S3 URL of the tar.gz file.
 
